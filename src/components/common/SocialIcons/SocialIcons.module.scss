@@ -1,0 +1,22 @@
+.root {
+  bottom: 16px;
+  left: 25px;
+  position: fixed;
+
+}
+
+.link {
+  padding: 0 4px;
+  color: var(--color-gray);
+}
+
+.icon {
+  font-size: 28px;
+
+  &:first-child {
+    padding-left: 0;
+  }
+  &:last-child {
+    padding-right: 0;
+  }
+}

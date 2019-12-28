@@ -1,0 +1,19 @@
+$theme-dark: (
+  body: (
+    background: var(--color-black),
+    color: var(--color-gray),
+  ),
+  menu: (
+    color: var(--color-bluegray)
+  )
+);
+
+$theme-light: (
+  body: (
+    background: var(--color-gray),
+    color: var(--color-black),
+  ),
+  menu: (
+    color: '#'
+  )
+);

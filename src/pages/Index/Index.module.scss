@@ -1,0 +1,38 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.title {
+  width: 100%;
+}
+
+.page {
+  display: inline-flex;
+  padding-top: 48px;
+  justify-content: space-between;
+}
+
+.menu {
+  flex-basis: 30%;
+  min-width: 200px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  align-content: flex-start;
+  padding: 0 16px;
+}
+
+@media (max-width: 780px) {
+  .page {
+    flex-direction: column;
+    min-width: 380px;
+  }
+
+  .content {
+    margin-top: 16px;
+  }
+}

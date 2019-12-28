@@ -1,24 +1,38 @@
 {
   "name": "homepage",
   "version": "0.1.0",
+  "author": {
+    "email": "d4rkm3z@gmail.com",
+    "name": "Kirill.Sadoovnikov",
+    "url": "https://sadovnikov.dev"
+  },
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-brands-svg-icons": "^5.12.0",
+    "@fortawesome/free-regular-svg-icons": "^5.12.0",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@types/classnames": "^2.2.9",
     "@types/jest": "^24.0.23",
     "@types/node": "^12.12.14",
     "@types/react": "^16.9.15",
     "@types/react-dom": "^16.9.4",
     "@types/react-router-dom": "^5.1.3",
+    "classnames": "^2.2.6",
     "node-sass": "^4.13.0",
     "normalize.css": "^8.0.1",
     "react": "^16.12.0",
     "react-app-polyfill": "^1.0.5",
     "react-dom": "npm:@hot-loader/react-dom@^16.11.0",
     "react-hot-loader": "^4.12.18",
+    "react-intl": "^3.9.2",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
+    "react-transition-group": "^4.3.0",
     "typescript": "^3.7.3"
   },
   "scripts": {
@@ -41,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-transition-group": "^4.2.3"
   }
 }

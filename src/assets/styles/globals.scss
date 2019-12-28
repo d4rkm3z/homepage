@@ -1,1 +1,40 @@
+@import './../fonts/fonts.scss';
 @import '~normalize.css';
+@import 'variables.scss';
+@import 'themes.scss';
+
+html {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+body {
+  visibility: visible;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  padding: 30px;
+}
+
+@mixin themable($theme-name, $theme-map) {
+  .#{$theme-name} {
+    @each $key, $section in $theme-map {
+      @if ($key == body) {
+        body {
+          background: no-repeat fixed 50% map_get($section, background);
+          color: map_get($section, color);
+        }
+      } @else {
+        //.#{$section} {
+        //}
+      }
+    }
+  }
+}
+
+@include themable(theme-dark, $theme-dark)
+@include themable(theme-light, $theme-light)

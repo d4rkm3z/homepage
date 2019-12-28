@@ -1,0 +1,18 @@
+.list {
+  padding-left: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.link {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 2px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-bluegray);
+  background-color: initial;
+}

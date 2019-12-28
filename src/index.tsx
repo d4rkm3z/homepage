@@ -2,7 +2,7 @@ import './utils/polyfills';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './assets/styles/globals.scss';
+import 'assets/styles/globals.scss';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
